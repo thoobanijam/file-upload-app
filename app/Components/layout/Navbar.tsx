@@ -52,9 +52,9 @@ export function Navbar() {
             </div>
             <Link
               href="/"
-              className="text-xl font-bold text-gray-900 hover:text-blue-600 "
+              className="text-xl font-bold text-[#0d542b] hover:text-blue-600 "
             >
-              Health & Medical Service
+              SURGERY TOOL DETECTION AI
             </Link>
           </div>
 

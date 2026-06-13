@@ -40,7 +40,7 @@ export default function LiveInput() {
         alignItems: "center",
         backgroundColor: "white",
         flexDirection: "column",
-        height: "100vh",
+        
         gap: "20px",
       }}
     >
@@ -52,11 +52,11 @@ export default function LiveInput() {
         className="rounded"
       />
       <Link
-        style={{ padding: "20px" }}
+        style={{ padding: "20px",color:'#0d542b' }}
         href="/"
         className="text-2xl font-bold text-green-900 hover:text-blue-600"
       >
-        Health & Medical Service
+        SURGERY TOOL DETECTION AI
       </Link>
 
       {/* Input with + and upload arrow */}
@@ -129,7 +129,7 @@ export default function LiveInput() {
 
       {/* File previews as cards */}
       {files.length > 0 && (
-        <div style={{ display: "flex", gap: "10px", flexWrap: "wrap", width: "500px" }}>
+        <div style={{ display: "flex", gap: "10px", flexWrap: "wrap", width: "650px", }}>
           {files.map((file, idx) => {
             const isImage = file.type.startsWith("image/");
             const fileURL = URL.createObjectURL(file);
@@ -139,8 +139,8 @@ export default function LiveInput() {
                 key={idx}
                 style={{
                   position: "relative",
-                  width: "100px",
-                  height: "100px",
+                  width: "100%",
+                  height: "600px",
                   borderRadius: "10px",
                   overflow: "hidden",
                   border: "1px solid gray",
@@ -149,6 +149,7 @@ export default function LiveInput() {
                   alignItems: "center",
                   backgroundColor: "#f0f0f0",
                   cursor: "pointer",
+                
                 }}
               >
                 {/* Delete button */}

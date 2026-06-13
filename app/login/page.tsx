@@ -38,7 +38,7 @@ export default function LiveInput() {
         href="/"
         className="text-2xl font-bold text-green-900 hover:text-blue-600"
       >
-        Health & Medical Service
+       SURGERY TOOL DETECTION AI
       </Link>
       <div style={{display:"flex",flexDirection:"row"}}>
       <div style={{width:'50%',height:"50vh",
